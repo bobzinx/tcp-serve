@@ -1,12 +1,12 @@
 # Simple TCP Server
 
-# Requirements
+Requirements
 
-# 1. Clone the repository:
+ 1. Clone the repository:
 `git clone https://github.com/bobzinx/tcp-serve.git`
 
-# 2. Run the server and client using:
+ 2. Run the server and client using:
 `python3 serve.py`
 `python client.py`
 
-# 3. Enjoy! 🎉
+ 3. Enjoy! 🎉
