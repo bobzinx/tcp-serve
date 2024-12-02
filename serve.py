@@ -3,9 +3,10 @@ import socket
 #set up a tcp/ip server
 
 tcpSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-serveAdress = ('localhost', 8000)
+host = input("writing the host (ex: localhost ou 192.168.1.1): ")
+port = int(input("writing the number of port (ex: 81): "))
 
-tcpSocket.bind(serveAdress)
+tcpSocket.bind(host,port)
 
 tcpSocket.listen(1)
 
